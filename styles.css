@@ -86,3 +86,42 @@ body{
 @media (prefers-reduced-motion:reduce){
   *{transition:none!important}
 }
+
+.contact-form {
+  display: grid;
+  gap: 12px;
+  max-width: 480px;
+  margin-bottom: 40px;
+}
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+.contact-form input,
+.contact-form textarea {
+  margin-top: 6px;
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  border: 1px solid rgba(255,255,255,0.1);
+  background: var(--card);
+  color: #fff;
+  font-family: var(--ff);
+}
+.contact-form button {
+  padding: 12px;
+  border-radius: var(--radius);
+  border: 0;
+  background: var(--accent);
+  font-weight: 600;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  opacity: 0.85;
+}
+.commission-form iframe {
+  border-radius: var(--radius);
+  background: #fff;
+}
+
