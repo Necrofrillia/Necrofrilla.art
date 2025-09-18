@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Art Portfolio</title>
+  <meta name="description" content="Portfolio of Your Name — digital & traditional art, commissions available." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="/">Your Name</a>
+      <nav class="nav">
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <h1>Hi — I'm <strong>Your Name</strong></h1>
+        <p class="tagline">Visual artist • commissions open • pastel / spooky / silly</p>
+        <a class="cta" href="#gallery">View Gallery</a>
+      </div>
+    </section>
+
+    <section id="gallery" class="wrap gallery-section">
+      <h2>Gallery</h2>
+      <p class="muted">Click a piece to open a larger view. All images are lazy-loaded for speed.</p>
+
+      <div id="galleryGrid" class="gallery-grid">
+        <!-- Repeat this figure for each artwork: use thumb & full size files -->
+        <figure tabindex="0" data-full="images/art-01-full.jpg" data-title="Title — Medium • Year">
+          <img loading="lazy" src="images/art-01-thumb.jpg" alt="Short descriptive alt text for piece 1" />
+          <figcaption>Title — Medium</figcaption>
+        </figure>
+
+        <figure tabindex="0" data-full="images/art-02-full.jpg" data-title="Title 2 — Medium">
+          <img loading="lazy" src="images/art-02-thumb.jpg" alt="Short descriptive alt text for piece 2" />
+          <figcaption>Title 2</figcaption>
+        </figure>
+
+        <!-- add more figures... -->
+      </div>
+    </section>
+
+    <section id="about" class="wrap about-section">
+      <h2>About</h2>
+      <p>Short bio: what you do, commission availability, turnaround, pricing starting point, and preferred contact method.</p>
+    </section>
+
+    <section id="contact" class="wrap contact-section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+      <p>Or link to Ko-fi / Twitter / Instagram / Patreon — add icons/links here.</p>
+    </section>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox" aria-hidden="true" class="lightbox" role="dialog" aria-label="Image viewer">
+    <button class="lb-close" title="Close (Esc)">&times;</button>
+    <button class="lb-prev" aria-label="Previous (←)">‹</button>
+    <div class="lb-content">
+      <img id="lb-image" src="" alt="" />
+      <p id="lb-caption"></p>
+    </div>
+    <button class="lb-next" aria-label="Next (→)">›</button>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <small>© <span id="year"></span> Your Name — <a href="https://github.com">Built with GitHub Pages</a></small>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
