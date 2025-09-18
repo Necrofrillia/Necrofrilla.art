@@ -55,10 +55,45 @@
     </section>
 
     <section id="contact" class="wrap contact-section">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
-      <p>Or link to Ko-fi / Twitter / Instagram / Patreon — add icons/links here.</p>
-    </section>
+  <h2>Contact</h2>
+
+  <!-- Quick contact form -->
+  <form action="https://formspree.io/f/abcdwxyz" method="POST" class="contact-form">
+    <label>
+      Your Name
+      <input type="text" name="name" required>
+    </label>
+
+    <label>
+      Your Email
+      <input type="email" name="_replyto" required>
+    </label>
+
+    <label>
+      Message
+      <textarea name="message" rows="5" required></textarea>
+    </label>
+
+    <!-- Add subject for Gmail filters -->
+    <input type="hidden" name="_subject" value="New message from art portfolio site" />
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <!-- Commission Request Google Form -->
+  <div class="commission-form">
+    <h3>Commission Request Form</h3>
+    <iframe 
+      src="https://docs.google.com/forms/d/e/YOURFORMID/viewform?embedded=true" 
+      width="100%" 
+      height="800" 
+      frameborder="0" 
+      marginheight="0" 
+      marginwidth="0">
+      Loading…
+    </iframe>
+  </div>
+</section>
   </main>
 
   <!-- Lightbox -->
