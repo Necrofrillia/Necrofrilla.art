@@ -160,7 +160,7 @@ body{
   justify-content: center;
   align-items: center;
 }
-.contact-image img {
+#contact .contact-image img {
   max-width: 100%;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(200, 150, 200, 0.3);
