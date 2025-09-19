@@ -136,4 +136,19 @@ header {
   border-radius: 12px; /* optional: gives rounded corners */
 }
 
+/* Header banner */
+
+.banner-header {
+  background-image: url("images/Necrofillia.png");
+  background-size: cover;   /* fills the header area */
+  background-position: center;
+  height: 250px;            /* set the banner height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;             /* text color over banner */
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+
 
