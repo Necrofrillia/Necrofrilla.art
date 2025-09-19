@@ -124,4 +124,16 @@ body{
   border-radius: var(--radius);
   background: #fff;
 }
+/* Header logo styling */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.header-logo {
+  max-width: 250px; /* resize as needed */
+  height: auto;
+  border-radius: 12px; /* optional: gives rounded corners */
+}
+
 
