@@ -221,13 +221,8 @@ header {
 
 /* Request form styling-ish */
 
-#Request Form h1
- {
+#Request Form h1 {
   text-align: center;
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #ff66cc;
-  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
 /* temp bg */
