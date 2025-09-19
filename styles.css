@@ -148,6 +148,35 @@ header {
   font-weight: bold;
 }
 
+/* About Section Styling */
+#about {
+  background-color: #fff0f8; /* soft pastel pink */
+  color: #4b3b47; /* dark pastel mauve for readability */
+  padding: 50px;
+  margin: 50px auto;
+  max-width: 800px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(200, 150, 200, 0.3); /* pastel glow shadow */
+}
+
+/* Title */
+#about h2 {
+  text-align: center;
+  color: #ff80c0; /* candy pink */
+  font-size: 2.2em;
+  font-family: 'Creepster', cursive; /* spooky-cute font */
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #fff5f8; /* soft pastel glow */
+}
+
+/* Body Text */
+#about p {
+  text-align: left;
+  font-size: 1.1em;
+  font-family: 'Poppins', sans-serif; /* clean readable font */
+  line-height: 1.6;
+  color: #4b3b47;
+}
 
 /* temp bg */
 
