@@ -86,44 +86,79 @@ body{
 @media (prefers-reduced-motion:reduce){
   *{transition:none!important}
 }
+/* Contact Section */
+#contact {
+  padding: 50px;
+  background-color: #fff0f8; /* pastel background */
+  text-align: center;
+}
 
-.contact-form {
-  display: grid;
-  gap: 12px;
-  max-width: 480px;
-  margin-bottom: 40px;
-}
-.contact-form label {
+/* Flexbox container */
+.contact-container {
   display: flex;
-  flex-direction: column;
-  font-size: 0.95rem;
-  color: var(--muted);
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 30px;
 }
-.contact-form input,
-.contact-form textarea {
-  margin-top: 6px;
-  padding: 10px 12px;
-  border-radius: var(--radius);
-  border: 1px solid rgba(255,255,255,0.1);
-  background: var(--card);
-  color: #fff;
-  font-family: var(--ff);
+
+/* Form styling */
+#contact form {
+  flex: 1;
+  text-align: left;
 }
-.contact-form button {
-  padding: 12px;
-  border-radius: var(--radius);
-  border: 0;
-  background: var(--accent);
-  font-weight: 600;
+
+/* Input fields */
+#contact input,
+#contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ff80c0;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Button */
+#contact button {
+  background-color: #ff80c0;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
   cursor: pointer;
+  font-weight: bold;
 }
-.contact-form button:hover {
-  opacity: 0.85;
+#contact button:hover {
+  background-color: #ff4da6;
 }
-.commission-form iframe {
-  border-radius: var(--radius);
-  background: #fff;
+
+/* Image styling */
+.contact-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.contact-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(200, 150, 200, 0.3);
+}
+
+/* 📱 Mobile responsiveness */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column; /* stack items */
+    align-items: center;
+  }
+
+  .contact-image img {
+    max-width: 70%; /* shrink image */
+    margin-top: 20px;
+  }
+  
 /* Header logo styling */
 header {
   text-align: center;
