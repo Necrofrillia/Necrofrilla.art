@@ -136,19 +136,25 @@ header {
   border-radius: 12px; /* optional: gives rounded corners */
 }
 
-/* Header banner */
+/* temp bg */
 
-.banner-header {
-  background-image: url("images/Necrofillia.png");
-  background-size: cover;   /* fills the header area */
-  background-position: top;
-  height: 250px;            /* set the banner height */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;             /* text color over banner */
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+body {
+  background-image: url("images/Necrofillia.png"); /* put your image path here */
+  background-size: cover;     /* makes it cover the whole page */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* keeps it in place while scrolling */
+  background-position: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
+main {
+  background-color: rgba(255, 255, 255, 0.85); /* white with transparency */
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
 
 
 
