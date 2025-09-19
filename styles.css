@@ -168,7 +168,7 @@ header {
   height: auto;
   border-radius: 12px; /* optional: gives rounded corners */
 }
-
+/* Social Links Index Styling */
 .social-links {
   text-align: right;   /* pushes the links to the right */
   margin: 20px;        /* adds spacing from the edges */
