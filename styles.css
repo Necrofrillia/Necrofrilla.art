@@ -108,7 +108,7 @@ body{
 /* Contact Section */
 #contact {
   padding: 50px;
-  background-color: #8f7e84; /* pastel background */
+  background-color: transparent; /* pastel background */
   text-align: center;
 }
 
