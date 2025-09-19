@@ -136,6 +136,19 @@ header {
   border-radius: 12px; /* optional: gives rounded corners */
 }
 
+.social-links {
+  text-align: right;   /* pushes the links to the right */
+  margin: 20px;        /* adds spacing from the edges */
+}
+
+.social-links a {
+  margin-left: 15px;   /* spacing between links */
+  text-decoration: none;
+  color: #333;         /* adjust color for your theme */
+  font-weight: bold;
+}
+
+
 /* temp bg */
 
 body {
