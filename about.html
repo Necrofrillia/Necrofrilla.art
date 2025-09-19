@@ -17,59 +17,154 @@
   <meta charset="UTF-8">
   <title>⊹⋆ようこそ₊˚⊹⋆</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 15px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 1em;
+      color: #2c3e50;
+    }
+    .top-columns {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 2em;
+      flex-wrap: wrap;
+    }
+    .column {
+      flex: 1;
+      min-width: 200px;
+      background: #f9f9f9;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+    }
+    .pricing-column {
+      background: #f9f9f9;
+      padding: 15px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      margin-bottom: 2em;
+      max-width: 420px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h2 {
+      font-size: 1.2em;
+      margin-top: 0;
+      margin-bottom: 0.8em;
+      color: #2980b9;
+      border-bottom: 2px solid #2980b9;
+      padding-bottom: 4px;
+    }
+    ul {
+      padding-left: 20px;
+      margin: 0;
+    }
+    ul li {
+      margin-bottom: 0.5em;
+    }
+    .tos {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 15px;
+      line-height: 1.5;
+      font-size: 0.95em;
+    }
+    @media (max-width: 600px) {
+      .top-columns {
+        flex-direction: column;
+      }
+      .pricing-column {
+        max-width: 100%;
+      }
+    }
+  </style>
 </head>
-  <main>
-    
-     <h1><u><b>Terms of Service</u></b></h1>
-    
-    <p><b>Will do:</b>
-Anything within legal bounds. Text Based descriptions are okay.
-Please be advised that artistic freedom remains a top preference, but exact instructions get the best results.
+<body>
+  <h1>Artist Pricing & Services</h1>
 
-<b>Won't do:</b>
-
-Works based on unclear description, copyrighted material outside of legal right, illegal acts.
-
- <div class="highlight">
-      <p><u><b>Revisions & Refunds:</b></u>
-      No refunds of inital 50% reserve deposit after sketch approval!
-      Revisions are available at sketch stage only. One free sketch and color (if applicable) revison is available before final payment.</p>
+  <div class="top-columns">
+    <div class="column">
+      <h2>Will Do</h2>
+      <ul>
+        <li>Portraits (1-3 subjects)</li>
+        <li>Pet Illustrations</li>
+        <li>Digital and Print Files</li>
+        <li>Custom Backgrounds</li>
+      </ul>
     </div>
 
-<u><b>Delivery:</b></u>
+    <div class="column">
+      <h2>Won't Do</h2>
+      <ul>
+        <li>Explicit or Offensive Content</li>
+        <li>Political or Religious Art</li>
+        <li>Commercial Logos</li>
+        <li>3D Modeling</li>
+      </ul>
+    </div>
+  </div>
 
-Client will recieve an invoice upon first payment.
-All finished pieces will be HD (High definition) and delivered to client's email/perferred method of delivery upon completion.
-Final piece will not include watermark and signature is included.
+  <div class="pricing-column">
+    <h2>Pricing</h2>
+    <ul>
+      <li>Basic Portrait: $150</li>
+      <li>Full Color Portrait: $300</li>
+      <li>Custom Background: +$50</li>
+      <li>Additional Subject: +$75 each</li>
+    </ul>
+  </div>
 
-<u><b>Usage and rights:</b></u>
-
-All works are for personal use only; absolutely no commercial use, unless otherwise negotiated. Artist's rights are retained for all works.
-No AI Training or NFTS allowed, unless otherwise negotiated.</p>
+  <div class="tos">
+    <h2>Terms of Service</h2>
+    <p>All commissions require a 50% deposit before work begins. Final payment is due upon completion. Revisions are limited to two rounds; additional changes may incur extra fees. Artwork is for personal use only unless otherwise agreed. Deposits are non-refundable.</p>
+  </div>
+</body>
+</html>
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Formatting Content with HTML</h1>
+    
+    <h2>Understanding Headings</h2>
+    <p>Headings in HTML range from &lt;h1&gt; to &lt;h6&gt;, with &lt;h1&gt; being the most important and &lt;h6&gt; the least. They create a visual hierarchy that helps users understand the structure of your content at a glance.</p>
+    
+    <div class="highlight">
+      <p>Pro Tip: Use only one &lt;h1&gt; per page for the main title, and maintain a logical heading structure for better accessibility and SEO.</p>
+    </div>
+    
+    <h2>Creating Multi-Column Layouts</h2>
+    <p>Modern CSS provides several methods for creating column-based layouts. The Flexbox approach shown here is responsive and adapts to different screen sizes.</p>
     
     <div class="columns-container">
       <div class="column">
-        <h2><b><u>Pricing</b></u></h2>
-        
-        <p>Bust- 50
-Half Body- 65-70
-Full Body- 90-100
-Chibi- 55
-NSFW 3x base price</p>
-        <p>Add ons: Background 10-40, 
-Color- 15- 30
-additional character 20 + 10 for each after two
-Rush delivery - 2x total
-Furry/ Anthro no extra cost
-      </p>
+        <h3>Flexbox Columns</h3>
+        <p>Using display: flex on a container and flex: 1 on child elements creates equal-width columns that automatically adjust to the available space.</p>
+        <p>This method is widely supported and works well for responsive designs that need to adapt to mobile devices.</p>
+      </div>
+      
+      <div class="column">
+        <h3>CSS Grid Alternative</h3>
+        <p>CSS Grid offers another approach to multi-column layouts with more control over both rows and columns.</p>
+        <p>For simpler column layouts, Flexbox is often sufficient, but Grid provides more powerful two-dimensional layout capabilities.</p>
       </div>
     </div>
-      
-<p> All Prices in USD.</p>
-<p>Price depends on detail/complexity of Charcater/ background.</p>
-<p>Turnaround 1-3 weeks</p>
-<p>Paypal Preferred, Cashapp OK!</p>
+    
+    <h2>Paragraph Styling Tips</h2>
+    <p>Well-formatted paragraphs improve readability. Consider these best practices:</p>
+    <p>Use appropriate line height (1.5-1.6 is often ideal), limit line length to 50-75 characters, and ensure sufficient contrast between text and background colors.</p>
+    <p>Break up long blocks of text with subheadings, images, or other visual elements to keep readers engaged.</p>
+  </div>
+</body>
     
 </main>
 </body>
