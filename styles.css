@@ -90,7 +90,6 @@ body{
 /* Contact Section */
 #contact {
   padding: 50px;
-  background-color: transparent; /* pastel background */
   text-align: center;
 }
 
@@ -110,7 +109,6 @@ body{
   text-align: left;
 }
 
-/* Input fields */
 #contact input,
 #contact textarea {
   width: 100%;
@@ -121,7 +119,6 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-/* Button */
 #contact button {
   background-color: #ff80c0;
   color: white;
@@ -132,11 +129,11 @@ body{
   font-weight: bold;
 }
 #contact button:hover {
-  background-color: #8f7e84;
+  background-color: #ff4da6;
 }
 
-/* Image styling */
-.contact-image {
+/* Image ONLY in contact section */
+#contact .contact-image {
   flex: 1;
   display: flex;
   justify-content: center;
@@ -151,14 +148,14 @@ body{
 /* 📱 Mobile responsiveness */
 @media (max-width: 768px) {
   .contact-container {
-    flex-direction: column; /* stack items */
+    flex-direction: column;
     align-items: center;
   }
-
-  .contact-image img {
-    max-width: 70%; /* shrink image */
+  #contact .contact-image img {
+    max-width: 70%;
     margin-top: 20px;
   }
+}
   
 /* Header logo styling */
 header {
