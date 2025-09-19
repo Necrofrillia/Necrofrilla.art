@@ -9,6 +9,25 @@
   --ff: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
 }
 
+/* temp bg */
+
+body {
+  background-image: url("images/Necrofillia.png"); /* put your image path here */
+  background-size: cover;     /* makes it cover the whole page */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* keeps it in place while scrolling */
+  background-position: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+main {
+  background-color: rgba(255, 255, 255, 0.85); /* white with transparency */
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
 *{box-sizing:border-box}
 html,body{height:100%}
 body{
@@ -89,7 +108,7 @@ body{
 /* Contact Section */
 #contact {
   padding: 50px;
-  background-color: #fff0f8; /* pastel background */
+  background-color: #8f7e84; /* pastel background */
   text-align: center;
 }
 
@@ -185,7 +204,7 @@ header {
 
 /* About Section Styling */
 #about {
-  background-color: #fff0f8; /* soft pastel pink */
+  background-color: #8f7e84; /* soft pastel pink */
   color: #4b3b47; /* dark pastel mauve for readability */
   padding: 50px;
   margin: 50px auto;
@@ -213,24 +232,7 @@ header {
   color: #4b3b47;
 }
 
-/* temp bg */
 
-body {
-  background-image: url("images/Necrofillia.png"); /* put your image path here */
-  background-size: cover;     /* makes it cover the whole page */
-  background-repeat: no-repeat;
-  background-attachment: fixed; /* keeps it in place while scrolling */
-  background-position: center;
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-main {
-  background-color: rgba(255, 255, 255, 0.85); /* white with transparency */
-  padding: 20px;
-  border-radius: 12px;
-  max-width: 900px;
-  margin: 20px auto;
-}
 
 
 
