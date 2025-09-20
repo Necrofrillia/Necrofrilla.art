@@ -242,6 +242,17 @@ header {
   color: #4b3b47;
 }
 
+/* Centered pricing list */
+.centered-list {
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+}
+
+.centered-list li {
+  display: block; /* default */
+}
+
 /* Request form styling-ish */
 
 #Request Form h1 {
