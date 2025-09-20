@@ -1,6 +1,6 @@
 // title-scroll.js
 document.addEventListener("DOMContentLoaded", function () {
-    let msg = " 🎃👻🎉 ようこそ 🎉 👻🎃 "; // your scrolling text
+    let msg = " 🎃👻 🎉 ようこそ 🎉 👻🎃 "; // your scrolling text
     let speed = 175; // lower = faster (ms)
     let pos = 0;
 
