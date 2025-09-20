@@ -1,30 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Digital Art Portfolio</title>
-  <!-- Google Fonts: Creepster and Poppins -->
-  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    /* Global font settings */
     body, html {
       margin: 0;
       padding: 0;
       height: 100%;
       font-family: 'Poppins', sans-serif;
-      color: #222;
-      background: #fff;
     }
-
-    /* Headings use Creepster */
-    h1, h2, h3, h4, h5, h6 {
-      font-family: 'Creepster', cursive;
-      color: #2c3e50;
-      margin-top: 0;
-    }
-
-    /* Age Gate overlay */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Creepster', cursive;
+}
+    /* Overlay style */
     #age-gate {
       position: fixed;
       top: 0;
@@ -39,20 +30,16 @@
       align-items: center;
       text-align: center;
       z-index: 9999;
-      padding: 1rem;
-      box-sizing: border-box;
     }
 
     #age-gate h1 {
-      font-size: 2.5rem;
+      font-size: 2rem;
       margin-bottom: 1rem;
     }
 
     #age-gate p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       margin-bottom: 2rem;
-      max-width: 400px;
-      line-height: 1.4;
     }
 
     #age-gate button {
@@ -62,9 +49,6 @@
       border-radius: 8px;
       font-size: 1rem;
       cursor: pointer;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 600;
-      transition: background-color 0.3s ease;
     }
 
     #enter-btn {
@@ -72,122 +56,14 @@
       color: white;
     }
 
-    #enter-btn:hover {
-      background-color: #45a049;
-    }
-
     #leave-btn {
       background-color: #f44336;
       color: white;
     }
 
-    #leave-btn:hover {
-      background-color: #d32f2f;
-    }
-
-    /* Hide main content until age verified */
+    /* Hide content until accepted */
     #site-content {
       display: none;
-      padding: 1rem;
-      max-width: 900px;
-      margin: 0 auto;
-    }
-
-    /* Site header */
-    .site-header {
-      background: #f0f0f0;
-      padding: 1rem 0;
-      border-bottom: 2px solid #2980b9;
-    }
-
-    .site-header .wrap {
-      max-width: 900px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0 1rem;
-    }
-
-    .header-logo {
-      height: 50px;
-    }
-
-    .nav a {
-      margin-left: 1rem;
-      text-decoration: none;
-      color: #2980b9;
-      font-weight: 600;
-      font-family: 'Poppins', sans-serif;
-    }
-
-    .nav a:hover {
-      text-decoration: underline;
-    }
-
-    /* Main hero section */
-    .hero {
-      text-align: center;
-      padding: 3rem 1rem;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-      margin-top: 0.5rem;
-      margin-bottom: 2rem;
-    }
-
-    .cta {
-      display: inline-block;
-      background-color: #2980b9;
-      color: white;
-      padding: 0.8rem 1.5rem;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: 600;
-      font-family: 'Poppins', sans-serif;
-      transition: background-color 0.3s ease;
-    }
-
-    .cta:hover {
-      background-color: #1c5980;
-    }
-
-    /* Social links */
-    .social-links {
-      text-align: center;
-      margin-bottom: 3rem;
-    }
-
-    .social-links a {
-      margin: 0 0.5rem;
-      display: inline-block;
-    }
-
-    .social-links img {
-      width: 32px;
-      height: 32px;
-      vertical-align: middle;
-    }
-
-    /* Footer */
-    .site-footer {
-      background: #f0f0f0;
-      padding: 1rem 0;
-      border-top: 2px solid #2980b9;
-      text-align: center;
-      font-family: 'Poppins', sans-serif;
-      font-size: 0.9rem;
-      color: #555;
-    }
-
-    .site-footer a {
-      color: #2980b9;
-      text-decoration: none;
-    }
-
-    .site-footer a:hover {
-      text-decoration: underline;
     }
   </style>
 </head>
@@ -195,7 +71,7 @@
   <!-- Age Gate -->
   <div id="age-gate">
     <h1>18+ Content Warning</h1>
-    <p>This site contains artistic material intended for audiences 18 years or older.<br />
+    <p>This site contains artistic material intended for audiences 18 years or older.<br>
        By clicking "Enter," you confirm that you are at least 18 years of age.</p>
     <div>
       <button id="enter-btn">Enter</button>
@@ -203,74 +79,82 @@
     </div>
   </div>
 
-  <!-- Main site content -->
-  <div id="site-content">
-    <header class="site-header">
-      <div class="wrap">
-        <a class="logo" href="index.html">
-          <img src="images/crownclown.png" alt="My Art Logo" class="header-logo" />
-        </a>
-        <nav class="nav">
-          <a href="gallery.html">Gallery</a>
-          <a href="about.html">About</a>
-          <a href="contact.html">Contact</a>
-          <a href="Request Form.html">Request Form</a>
-        </nav>
-      </div>
-    </header>
-
-    <main class="wrap">
-      <section class="hero">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Digital + traditional art</p>
-        <a class="cta" href="gallery.html">View Gallery</a>
-      </section>
-
-      <div class="social-links">
-        <a href="https://discord.com/users/1380257005096407110" target="_blank" rel="noopener noreferrer">
-          <img src="images/disc.png" alt="Discord" />
-        </a>
-        <a href="https://youtube.com/@Necrofrillia" target="_blank" rel="noopener noreferrer">
-          <img src="images/utub.png" alt="Youtube" />
-        </a>
-        <a href="https://tiktok.com/@Necrofrillia" target="_blank" rel="noopener noreferrer">
-          <img src="images/tik.png" alt="TikTok" />
-        </a>
-        <a href="https://instagram.com/Necrofrillia" target="_blank" rel="noopener noreferrer">
-          <img src="images/insta.png" alt="Instagram" />
-        </a>
-      </div>
-    </main>
-
-    <footer class="site-footer">
-      <div class="wrap">
-        <small>©<span id="year"></span> Necrofrillia <a href="https://github.com">GitHub Pages</a></small>
-      </div>
-    </footer>
-  </div>
-
   <script>
-    // Age gate logic
-    window.onload = function () {
+    // Check localStorage on load
+    window.onload = function() {
       if (localStorage.getItem("ageVerified") === "true") {
         document.getElementById("age-gate").style.display = "none";
         document.getElementById("site-content").style.display = "block";
       }
     };
 
-    document.getElementById("enter-btn").addEventListener("click", function () {
+    document.getElementById("enter-btn").addEventListener("click", function() {
       localStorage.setItem("ageVerified", "true");
       document.getElementById("age-gate").style.display = "none";
       document.getElementById("site-content").style.display = "block";
     });
 
-    document.getElementById("leave-btn").addEventListener("click", function () {
+    document.getElementById("leave-btn").addEventListener("click", function() {
       localStorage.setItem("ageVerified", "false");
       window.location.href = "https://www.google.com"; // Redirect out
     });
-
-    // Set current year in footer
-    document.getElementById("year").textContent = new Date().getFullYear();
   </script>
+</body>
+</html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>⊹⋆ようこそ₊˚⊹⋆</title>
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- shared header -->
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html">
+        <img src="images/crownclown.png" alt="My Art Logo" class="header-logo"></a>
+      <nav class="nav">
+        <a href="gallery.html">Gallery</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="Request Form.html">Request Form</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Digital + traditional art </p>
+      <a class="cta" href="gallery.html">View Gallery</a>
+    </section>
+    <div class="social-links">
+    <a href="https://discord.com/users/1380257005096407110" target="_blank">
+      <img src="images/disc.png" alt="Discord">
+    </a>
+    <a href="https://youtube.com/@Necrofrillia" target="_blank">
+      <img src="images/utub.png" alt="Youtube">
+    </a>
+    <a href="https://tiktok.com/@Necrofrillia" target="_blank">
+      <img src="images/tik.png" alt="TikTok">
+    </a>
+    <a href="https://instagram.com/Necrofrillia" target="_blank">
+       <img src="images/insta.png" alt="Instagram">
+    </a>
+  </div>
+  </main>
+
+  <!-- shared footer -->
+ <footer class="site-footer">
+  <div class="wrap">
+    <small>©<span id="year"></span> Necrofrillia <a href="https://github.com">GitHub Pages</a></small>
+  </div>
+</footer>
+
+  <script src="script.js" defer></script>
+  <script src="title-scroll.js"></script>
 </body>
 </html>
