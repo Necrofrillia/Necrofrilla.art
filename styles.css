@@ -180,6 +180,7 @@ body{
 /* Request form Header align */
 .wrap {
   text-align: center;
+  background-color: transparent;
 }
 /* Request form page header with highlight */
 .request-page h2 {
