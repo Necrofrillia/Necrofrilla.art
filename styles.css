@@ -129,6 +129,15 @@ body{
   padding: 50px;
   text-align: center;
 }
+/* Contact Header Color/*
+/* Style the "Leave a message" header only */
+#contact h2 {
+  color: #000000;       /* change to any color you want */
+  font-family: 'Creepster', cursive; /* or another font */
+  text-align: center;   /* optional */
+  font-size: 2rem;      /* adjust size if needed */
+  margin-bottom: 20px;  /* spacing under header */
+}
 
 /* Flexbox container */
 .contact-container {
