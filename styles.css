@@ -156,7 +156,7 @@ body{
   padding: 50px;
   text-align: center;
 }
-/* Contact Header Color/*
+/* Contact Header Color */
 /* Style the "Leave a message" header only */
 #contact h2 {
   color: #f9f9f9;       /* change to any color you want */
@@ -177,7 +177,10 @@ body{
   margin: 0 auto;
   gap: 30px;
 }
-
+/* Request form Header align */
+.wrap {
+  text-align: center;
+}
 /* Request form page header with highlight */
 .request-page h2 {
   text-align: center;
