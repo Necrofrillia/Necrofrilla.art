@@ -163,6 +163,19 @@ body{
   border-radius: 10px;         /* rounded edges */
   text-decoration: underline wavy #cc33ff; /* fun underline */
 }
+/* Request form page header with site fonts */
+.request-page h2 {
+  text-align: center;
+  font-family: 'Creepster', cursive; /* match header font */
+  color: #cc33ff;              /* text color */
+  font-size: 2rem;             /* slightly larger for importance */
+  margin: 20px auto;
+  padding: 10px 20px;
+  display: inline-block;
+  background-color: #f8e6ff;   /* pastel highlight */
+  border-radius: 10px;
+  text-decoration: underline wavy #cc33ff; /* wavy underline */
+}
 
 
 /* Form styling */
