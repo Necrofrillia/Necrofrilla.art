@@ -93,6 +93,19 @@ body{
 
 }
 
+/* Index page format */
+.hero {
+  text-align: center;
+}
+.social-links {
+  text-align: center;
+  margin-top: 1rem;
+}
+.social-links a {
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
 
 /* Footer */
 .site-footer{padding:22px 0;color:var(--muted);border-top:1px solid rgba(255,255,255,0.03)}
