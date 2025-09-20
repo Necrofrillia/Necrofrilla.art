@@ -272,7 +272,7 @@ header {
 }
 /* Social Links Index Styling */
 .social-links {
-  text-align: right;   /* pushes the links to the right */
+  text-align: center;   /* pushes the links to the right */
   margin: 20px;        /* adds spacing from the edges */
 }
 
