@@ -139,6 +139,8 @@ body{
   margin-bottom: 20px;  /* spacing under header */
 }
 
+
+
 /* Flexbox container */
 .contact-container {
   display: flex;
@@ -148,6 +150,20 @@ body{
   margin: 0 auto;
   gap: 30px;
 }
+
+/* Request form page header with highlight */
+.request-page h2 {
+  text-align: center;
+  color: #000000;              /* text color */
+  font-size: 1.8rem;
+  margin: 20px auto;
+  padding: 10px 20px;
+  display: inline-block;       /* shrink highlight to text width */
+  background-color: #f8e6ff;   /* soft pastel purple background */
+  border-radius: 10px;         /* rounded edges */
+  text-decoration: underline wavy #cc33ff; /* fun underline */
+}
+
 
 /* Form styling */
 #contact form {
