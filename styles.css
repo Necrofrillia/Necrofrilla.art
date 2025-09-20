@@ -84,12 +84,11 @@ body{
 .lb-prev{left:14px}
 .lb-next{right:14px}
 #lb-caption{color:var(--muted);max-width:90vw;text-align:center}
-/* General lightbox overlay background */
-.lightboxOverlay,
-.lightbox,
-.fs-lightbox, 
-.modal-backdrop {
-  background: rgba(0, 0, 0, 0.8) !important; /* 80% transparent black */
+/* Force lightbox text to black */
+.lightbox .lb-data,
+.lightbox .lb-caption,
+.lightbox .lb-number {
+  color: black !important;
 }
 
 
@@ -200,7 +199,7 @@ header {
 
 /* About Section Styling */
 #about {
-  background-color: #Transparent; /* soft pastel pink */
+  background-color: #Transparent; /* shows website bg*/
   color: #4b3b47; /* dark pastel mauve for readability */
   padding: 50px;
   margin: 50px auto;
