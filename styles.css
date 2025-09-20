@@ -38,9 +38,10 @@ body{
 
 .gallery-section h1 {
   text-align: center;
+  font-family: 'Creepster', cursive;  /* spooky-cute font */
   font-size: 2.5rem;
   font-weight: bold;
-  color: #ff66cc;
+  color: ##674a70;
   text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
