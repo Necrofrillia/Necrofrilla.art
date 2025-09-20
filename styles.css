@@ -154,7 +154,7 @@ body{
 /* Request form page header with highlight */
 .request-page h2 {
   text-align: center;
-  color: #000000;              /* text color */
+  color: #f9f9f9;              /* text color */
   font-size: 1.8rem;
   margin: 20px auto;
   padding: 10px 20px;
@@ -303,7 +303,7 @@ header {
   text-align: center;
 }
 
-/* temp bg */
+/* temp site bg */
 
 body {
   background-image: url("images/Necrofillia.png"); /* put your image path here */
