@@ -45,6 +45,12 @@ body{
   color: #674a70;
   text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
+.gallery-section p {
+  text-align: center;
+  font-size: 1.1rem;   /* optional: adjust size */
+  margin-top: 10px;    /* space from header */
+}
+
 
 .gallery-section h2{margin-top:6px}
 
