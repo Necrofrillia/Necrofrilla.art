@@ -118,7 +118,7 @@ body{
 
 /* Gallery captions */
 .gallery-section figcaption {
-  color: #000;               /* black text */
+  color: #fff;               /* black text */
   font-family: 'Poppins', sans-serif;  /* match your body font */
   font-size: 0.95rem;        /* tweak size for readability */
   text-align: center;        /* center under each image */
