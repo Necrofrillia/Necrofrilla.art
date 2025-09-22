@@ -187,13 +187,13 @@ body{
   display: inline-block;               /* background hugs text */
   padding: 10px 20px;                  /* breathing space */
   border-radius: 8px;                  /* rounded edges */
-  color: #ff80c0;                      /* custom font color (lavender example) */
+  color: #674a70;                      /* custom font color (lavender example) */
 }
 
 /* Contact Header Color */
 /* Style the "Leave a message" header only */
 #contact h2 {
-  color: #ff80c0;       /* change to any color you want */
+  color: #674a70;       /* change to any color you want */
   font-family: 'Creepster', cursive; /* or another font */
   text-align: center;   /* optional */
   font-size: 2rem;      /* adjust size if needed */
@@ -219,7 +219,7 @@ body{
 /* Request form page header with highlight */
 .request-page h2 {
   text-align: center;
-  color: #f9f9f9;              /* text color */
+  color: #674a70;              /* text color */
   font-size: 1.8rem;
   margin: 20px auto;
   padding: 10px 20px;
@@ -232,7 +232,7 @@ body{
 .request-page h2 {
   text-align: center;
   font-family: 'Creepster', cursive; /* match header font */
-  color: #cc33ff;              /* text color */
+  color: #674a70;              /* text color */
   font-size: 2rem;             /* slightly larger for importance */
   margin: 20px auto;
   padding: 10px 20px;
