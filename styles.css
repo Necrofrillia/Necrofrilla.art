@@ -187,13 +187,13 @@ body{
   display: inline-block;               /* background hugs text */
   padding: 10px 20px;                  /* breathing space */
   border-radius: 8px;                  /* rounded edges */
-  color: #a87bb7;                      /* custom font color (lavender example) */
+  color: #ff80c0;                      /* custom font color (lavender example) */
 }
 
 /* Contact Header Color */
 /* Style the "Leave a message" header only */
 #contact h2 {
-  color: #f9f9f9;       /* change to any color you want */
+  color: #ff80c0;       /* change to any color you want */
   font-family: 'Creepster', cursive; /* or another font */
   text-align: center;   /* optional */
   font-size: 2rem;      /* adjust size if needed */
