@@ -179,6 +179,17 @@ body{
   padding: 50px;
   text-align: center;
 }
+
+/*contact header bg */
+
+.contact-title {
+  background: rgba(255, 255, 255, 0.7); /* semi-transparent white */
+  display: inline-block;               /* background hugs text */
+  padding: 10px 20px;                  /* breathing space */
+  border-radius: 8px;                  /* rounded edges */
+  color: #a87bb7;                      /* custom font color (lavender example) */
+}
+
 /* Contact Header Color */
 /* Style the "Leave a message" header only */
 #contact h2 {
