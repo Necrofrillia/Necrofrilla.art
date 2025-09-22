@@ -330,7 +330,16 @@ header {
   margin-bottom: 20px;
   text-shadow: 2px 2px #fff5f8; /* soft pastel glow */
 }
+/* About Artist Terms semi transparent bg title */
 
+<style>
+  .page-title {
+    background: rgba(255, 255, 255, 0.7); /* semi-transparent white */
+    display: inline-block;               /* shrink-wrap background */
+    padding: 10px 20px;                  /* some breathing space */
+    border-radius: 8px;                  /* soft rounded corners */
+  }
+</style>
 /* Body Text */
 #about p {
   text-align: left;
