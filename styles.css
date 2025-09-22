@@ -36,6 +36,29 @@ body{
 .hero h1{margin:0;font-size:2.1rem}
 .tagline{color:var(--muted);margin-bottom:12px}
 .cta{display:inline-block;padding:10px 18px;border-radius:10px;background:var(--accent);color:#100; text-decoration:none;font-weight:600}
+/* Special styling for index welcome section */
+.index-welcome {
+  background-color: rgba(255, 255, 255, 0.7); /* semi-transparent white */
+  padding: 20px;
+  border-radius: 12px;
+  display: inline-block;   /* only as wide as the content */
+  margin: 0 auto;          /* center */
+  text-align: center;
+}
+
+/* Text inside */
+.index-welcome h1 {
+  font-family: 'Creepster', cursive;
+  color: #cc33ff;          /* spooky accent color */
+  margin-bottom: 10px;
+}
+
+.index-welcome p {
+  font-family: 'Poppins', sans-serif;
+  color: #222;             /* dark readable text */
+  font-size: 1.1rem;
+}
+
 /* welcome image on index page */
 .hero {
   text-align: center;
