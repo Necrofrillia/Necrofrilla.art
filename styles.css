@@ -9,6 +9,44 @@
   --ff: 'Poppins';
   --ff-title: 'Creepster', cursive, serif;
 }
+/* === Site Header, shared across all pages === */
+.site-header {
+  background: rgba(0, 0, 0, 0.6); /* transparent black panel */
+  padding: 15px 0;
+}
+
+.site-header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-logo {
+  height: 60px;   /* keep logo same size everywhere */
+  width: auto;
+}
+
+.nav a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;          /* consistent size */
+  font-weight: 600;
+  color: #fff;              /* white text */
+  margin-left: 20px;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav a:hover {
+  color: #a87bb7;           /* lavender hover */
+}
+
+.nav a.active {
+  color: #ffaadf;           /* highlight current page */
+}
+
 
 
 *{box-sizing:border-box}
