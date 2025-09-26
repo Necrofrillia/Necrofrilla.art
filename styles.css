@@ -179,7 +179,7 @@ body{
   text-align: center;
   font-size: 1.1rem;
   margin-top: 10px;
-  color: #ffffff; /* 🎨 replace with whatever color you want */
+  color: #ffffff !important; /* 🎨 replace with whatever color you want */
   font-family: 'Poppins', sans-serif; /* make sure it matches your site text */
 }
 
