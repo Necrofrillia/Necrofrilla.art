@@ -47,6 +47,17 @@
   color: #ffaadf;           /* highlight current page */
 }
 
+/* Header logo styling */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.header-logo {
+  max-width: 250px;
+  height: auto;
+  border-radius: 12px;
+}
 
 
 *{box-sizing:border-box}
