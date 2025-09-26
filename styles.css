@@ -257,8 +257,11 @@ body{
   font-size: 2rem;      /* adjust size if needed */
   margin-bottom: 20px;  /* spacing under header */
 }
+/*Contact info color */
 
-
+.contact-form label {
+  color: #ffffff; /* white */
+}
 
 /* Flexbox container */
 .contact-container {
