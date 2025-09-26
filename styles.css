@@ -87,7 +87,7 @@ body{
 /* Text inside */
 .index-welcome h1 {
   font-family: 'Creepster', cursive;
-  color: #cc33ff;          /* spooky accent color */
+  color: #674a70;          /* spooky accent color */
   margin-bottom: 10px;
 }
 
@@ -120,7 +120,7 @@ body{
   font-family: 'Creepster', cursive;  /* spooky-cute font */
   font-size: 2.5rem;
   font-weight: bold;
-  color: #674a70;
+  color: #ff80c0;
   text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 .gallery-section p {
